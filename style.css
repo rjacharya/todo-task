@@ -1,0 +1,68 @@
+ * { box-sizing: border-box; margin: 0; padding: 0; }
+                                                                                                                     
+  body {
+    font-family: sans-serif;                                                                                         
+    background: #f0f2f5;                 
+    display: flex;
+    justify-content: center;
+    padding: 40px 16px;
+  }                                                                                                                  
+   
+  .container {                                                                                                       
+    background: white;                   
+    padding: 24px;
+    border-radius: 10px;
+    width: 100%;                                                                                                     
+    max-width: 480px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);                                                                           
+  }                                                                                                                  
+   
+  h1 { margin-bottom: 20px; font-size: 24px; }                                                                       
+                                         
+  .input-row {                                                                                                       
+    display: flex;                       
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;                                                                                          
+    border-radius: 6px;
+    font-size: 16px;                                                                                                 
+  }                                      
+
+  button {
+    padding: 10px 16px;
+    background: #0073e6;                                                                                             
+    color: white;
+    border: none;                                                                                                    
+    border-radius: 6px;                  
+    cursor: pointer;                                                                                                 
+    font-size: 16px;
+  }                                                                                                                  
+                                         
+  button:hover { background: #005bb5; }
+
+  ul { list-style: none; }                                                                                           
+   
+  li {                                                                                                               
+    display: flex;                       
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;                                                                                   
+  }
+                                                                                                                     
+  li.done span { text-decoration: line-through; color: #aaa; }
+
+  li span { flex: 1; font-size: 16px; }                                                                              
+   
+  .delete-btn {                                                                                                      
+    background: #e74c3c;                 
+    padding: 6px 10px;                                                                                               
+    font-size: 13px;
+  }                                                                                                                  
+                                         
+  .delete-btn:hover { background: #c0392b; }     
